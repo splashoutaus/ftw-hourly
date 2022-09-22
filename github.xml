@@ -1,0 +1,7 @@
+<application>
+  <component name="GithubAccounts">
+    <account name="splashoutaus" id="6cd89c9f-5b77-4df6-b350-36b87779d212">
+      <server host="github.com" />
+    </account>
+  </component>
+</application>
