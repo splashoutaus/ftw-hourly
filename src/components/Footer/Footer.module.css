@@ -146,8 +146,8 @@
   }
 }
 
-/* Desktop and Mobile: links to more information */
-.infoLinks {
+/* Desktop and Mobile: About us */
+.aboutUs {
   order: 2;
   flex-basis: 165px;
   margin-right: 24px;
@@ -194,8 +194,8 @@
   }
 }
 
-/* Desktop and Mobile: searches - first column */
-.searches {
+/* Desktop and Mobile: hosting */
+.hosting {
   order: 3;
   flex-basis: 165px;
   margin-right: 24px;
@@ -207,9 +207,9 @@
   }
 }
 
-/* Desktop and Mobile: searches - second column */
+/* Desktop and Mobile: listings */
 /* This is not always visible */
-.searchesExtra {
+.listings {
   order: 4;
   flex-basis: 165px;
   margin-right: 24px;
