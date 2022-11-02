@@ -81,12 +81,10 @@ const Footer = props => {
                 </p>
               </div>
             </div>
-            <div className={css.infoLinks}>
+            <div className={css.aboutUs}>
               <ul className={css.list}>
                 <li className={css.listItem}>
-                  <NamedLink name="NewListingPage" className={css.link}>
-                    <FormattedMessage id="Footer.toNewListingPage" />
-                  </NamedLink>
+                  About Us
                 </li>
                 <li className={css.listItem}>
                   <NamedLink name="AboutPage" className={css.link}>
@@ -110,82 +108,33 @@ const Footer = props => {
                 </li>
               </ul>
             </div>
-            <div className={css.searches}>
+            <div className={css.hosting}>
               <ul className={css.list}>
                 <li className={css.listItem}>
-                  <NamedLink
-                    name="SearchPage"
-                    to={{
-                      search:
-                        '?address=New%20York%20City%2C%20New%20York%2C%20USA&bounds=40.917576401307%2C-73.7008392055224%2C40.477399%2C-74.2590879797556',
-                    }}
-                    className={css.link}
-                  >
-                    <FormattedMessage id="Footer.searchNewYork" />
-                  </NamedLink>
+                  Hosting
                 </li>
                 <li className={css.listItem}>
-                  <NamedLink
-                    name="SearchPage"
-                    to={{
-                      search:
-                        '?address=Los%20Angeles%2C%20California%2C%20USA&bounds=34.161440999758%2C-118.121305008073%2C33.9018913203336%2C-118.521456965901',
-                    }}
-                    className={css.link}
-                  >
-                    <FormattedMessage id="Footer.searchLosAngeles" />
-                  </NamedLink>
-                </li>
-                <li className={css.listItem}>
-                  <NamedLink
-                    name="SearchPage"
-                    to={{
-                      search:
-                        '?address=San%20Francisco%2C%20California%2C%20USA&bounds=37.8324430069081%2C-122.354995082683%2C37.6044780500533%2C-122.517910874663',
-                    }}
-                    className={css.link}
-                  >
-                    <FormattedMessage id="Footer.searchSanFrancisco" />
-                  </NamedLink>
-                </li>
-                <li className={css.listItem}>
-                  <NamedLink
-                    name="SearchPage"
-                    to={{
-                      search:
-                        '?address=Seattle%2C%20Washington%2C%20USA&bounds=47.7779392908564%2C-122.216605992108%2C47.3403950185547%2C-122.441233019046',
-                    }}
-                    className={css.link}
-                  >
-                    <FormattedMessage id="Footer.searchSeattle" />
-                  </NamedLink>
-                </li>
-                <li className={css.listItem}>
-                  <NamedLink
-                    name="SearchPage"
-                    to={{
-                      search:
-                        '?address=Portland%2C%20Oregon%2C%20USA&bounds=45.858099013046%2C-122.441059986416%2C45.3794799927623%2C-122.929215816001',
-                    }}
-                    className={css.link}
-                  >
-                    <FormattedMessage id="Footer.searchPortland" />
+                  <NamedLink name="NewListingPage" className={css.link}>
+                    <FormattedMessage id="Footer.toNewListingPage" />
                   </NamedLink>
                 </li>
               </ul>
             </div>
-            <div className={css.searchesExtra}>
+            <div className={css.listings}>
               <ul className={css.list}>
                 <li className={css.listItem}>
+                  Local Spaces
+                </li>
+                <li className={css.listItem}>
                   <NamedLink
                     name="SearchPage"
                     to={{
                       search:
-                        '?address=Denver%2C%20Colorado%2C%20United%20States%20of%20America&bounds=39.94623402%2C-104.600299056%2C39.62371698%2C-105.193616003506',
+                        '?address=Sydney%2C%20New%20South%20Wales%2C%20Australia&bounds=-33.578140996%2C151.343020992%2C-34.118344992%2C150.520928608',
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchDenver" />
+                    <FormattedMessage id="Footer.searchSydney" />
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -193,11 +142,11 @@ const Footer = props => {
                     name="SearchPage"
                     to={{
                       search:
-                        '?address=Philadelphia%2C%20Pennsylvania%2C%20United%20States%20of%20America&bounds=40.1379937851305%2C-74.9557749984862%2C39.8557310196928%2C-75.2946589071447',
+                        '?address=Melbourne%2C%20Victoria%2C%20Australia&bounds=-37.511273722%2C145.512528832%2C-38.433859306%2C144.593741856',
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchPhiladelphia" />
+                    <FormattedMessage id="Footer.searchMelbourne" />
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -205,35 +154,11 @@ const Footer = props => {
                     name="SearchPage"
                     to={{
                       search:
-                        '?address=Boston%2C%20Massachusetts%2C%20United%20States%20of%20America&bounds=42.3974009328397%2C-70.9860500028801%2C42.3196059806256%2C-71.1255750165112',
+                        '?address=Gold%20Coast%2C%20Queensland%2C%20Australia&bounds=-27.708126368%2C153.552171232%2C-28.200317147%2C153.186551712',
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchBoston" />
-                  </NamedLink>
-                </li>
-                <li className={css.listItem}>
-                  <NamedLink
-                    name="SearchPage"
-                    to={{
-                      search:
-                        '?address=San%20Diego%2C%20California%2C%20United%20States%20of%20America&bounds=33.0722089336828%2C-116.853118984%2C32.534171982%2C-117.266223298428',
-                    }}
-                    className={css.link}
-                  >
-                    <FormattedMessage id="Footer.searchSanDiego" />
-                  </NamedLink>
-                </li>
-                <li className={css.listItem}>
-                  <NamedLink
-                    name="SearchPage"
-                    to={{
-                      search:
-                        '?address=Boulder%2C%20Colorado%2C%20United%20States%20of%20America&bounds=40.1593785009969%2C-105.108872052936%2C39.9139839802231%2C-105.525489934809',
-                    }}
-                    className={css.link}
-                  >
-                    <FormattedMessage id="Footer.searchBoulder" />
+                    <FormattedMessage id="Footer.searchGoldCoast" />
                   </NamedLink>
                 </li>
               </ul>
